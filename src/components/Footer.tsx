@@ -1,11 +1,10 @@
-import React from "react";
 import socialIcons from "../assets/Frame 1000006082.png";
 
 const Footer = () => {
   return (
     <div className="w-full h-[924px] md:h-[500px] md:flex bg-[#3A643B2E]">
       <div className="md:hidden w-full gap-6 flex flex-col justify-center text-center ">
-        <p className="ml-5 mt-12 font-[DINPro-Bold] text-[18px] font-bold leading-[23.18px] tracking-[0.03em] text-left text-[#3A643B]">
+        <p className="ml-5 mt-12 font-[DINPro-Bold] text-[18px] font-bold leading-[23.18px]   tracking-[0.03em] text-left text-[#3A643B]">
           Get in touch
         </p>
         <p className="ml-5 font-[DINPro-Bold] text-[18px] font-bold leading-[23.18px] tracking-[0.03em] text-left text-[#000000]">

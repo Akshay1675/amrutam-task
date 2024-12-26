@@ -1,4 +1,3 @@
-import React from 'react'
 import bgImg from "../assets/Rectangle 4167.png"
 
 const Booking = () => {

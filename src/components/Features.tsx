@@ -1,6 +1,4 @@
 import React from "react";
-import img1 from "../assets/Rectangle 4144.png";
-
 const Features: React.FC = () => {
   return (
     <section

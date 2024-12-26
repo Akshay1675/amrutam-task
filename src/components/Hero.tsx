@@ -90,7 +90,6 @@ const Hero: React.FC = () => {
 
           {/* Description */}
           <div className="flex flex-col gap-[16px] text-[#FFF7E2] w-full">
-            {/* Bold Heading */}
             <h2
               className="md:text-[48px] text-[24px] font-bold md:leading-[67.2px] leading-[33.6px] text-left"
               style={{
@@ -112,7 +111,6 @@ const Hero: React.FC = () => {
               Book Consultation with certified Experts.
             </h2>
 
-            {/* Subtext */}
             <p
               className="md:text-[20px] text-[14px] font-medium md:leading-[28px] leading-[19.6px] text-left md:w-[788px]"
               style={{
@@ -143,7 +141,6 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="absolute top-[721px] md:left-[2%] left-[6%] md:flex gap-[16px]">
-        {/* Map through features */}
         {features.map((feature, index) => (
           <HeroFeatureCard
             key={index}

@@ -71,7 +71,6 @@ const Testimonials: React.FC = () => {
             ref={(el) => (cardRefs.current[index] = el)}
             className="md:w-[388px] w-[304px] h-auto flex flex-col rounded-[20px] border border-[#D7D7D7] shadow-md bg-white"
           >
-            {/* First Div (Consulted For) */}
             <div
               className={`md:w-[386px] h-[54px] px-[26px] flex items-center rounded-t-[20px] gap-1 ${
                 testimonial.consultedFor.toLowerCase() === "hair"
@@ -84,7 +83,6 @@ const Testimonials: React.FC = () => {
               </p>
             </div>
 
-            {/* Second Div (Content Container) */}
             <div className="p-4 mt-[20px]">
               {/* 1st Section - User Info and Date */}
               <div className="flex justify-between items-center">
